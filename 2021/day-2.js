@@ -32,4 +32,3 @@ const pilotSubAim = () => {
   return loc[0] * loc[1]
 }
 console.log(pilotSubAim())
-
