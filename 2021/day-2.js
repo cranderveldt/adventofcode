@@ -9,11 +9,9 @@ const pilotSubSimple = () => {
     const coef = dir === 'up' ? -1 : 1
     loc[axis] += (amount * coef)
   })
-  console.log(loc)
   return loc[0] * loc[1]
 }
 console.log(pilotSubSimple())
-
 
 // Part 2
 const pilotSubAim = () => {
@@ -28,7 +26,6 @@ const pilotSubAim = () => {
       loc[2] += (amount * coef)
     }
   })
-  console.log(loc)
   return loc[0] * loc[1]
 }
 console.log(pilotSubAim())
