@@ -1,27 +1,4 @@
-const input = `pn-TY
-rp-ka
-az-aw
-al-IV
-pn-co
-end-rp
-aw-TY
-rp-pn
-al-rp
-end-al
-IV-co
-end-TM
-co-TY
-TY-ka
-aw-pn
-aw-IV
-pn-IV
-IV-ka
-TM-rp
-aw-PD
-start-IV
-start-co
-start-pn`
-
+const input = ``
 const lines = input.split("\n").map(line => line.split('-'))
 
 const tree = lines.reduce((acc, [a, b]) => {
